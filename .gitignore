@@ -1,3 +1,6 @@
+# customization ignoring files
+outcome/*
+
 # Logs
 logs
 *.log
