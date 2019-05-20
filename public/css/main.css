@@ -1,0 +1,109 @@
+body {
+    background: -webkit-linear-gradient(-90deg, #376796, #98C9F9, #fff, #fff, #fff, #fff)
+}
+
+main > hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.list-group > a {
+    color:black
+}
+
+.bg-academic { /* Use a Bootstrap-like syntax, you can find pre-compiled bg-* in Bootstrap4 documentation */
+    background: rgb(183, 190, 199)
+}
+
+.sec-bg-gradient { /* Section background gradient color */
+    background: -webkit-linear-gradient(145deg, lightsteelblue, #fff, #fff)
+}
+
+
+/* customize the carousel in members intro */
+
+#group-members-slides .carousel-caption {
+    background: rgba(183, 190, 199, 0.75);
+    bottom: 50px;
+}
+
+#group-members-slides ol.carousel-indicators, #group-members-slides ul.carousel-indicators {
+    margin-bottom: 0
+}
+
+#group-members-slides .carousel-item {
+    height: 400px;
+}
+
+#group-members-slides .carousel-item .card {
+    height: 385px;
+}
+
+#group-members-slides p.card-subtitle.text-muted {
+    border-left: 3px solid #6c757d!important;
+    padding-left: 3px
+}
+
+#group-members-slides .card-img-top {
+    max-height: 200px;
+    object-fit: scale-down;
+}
+
+/* customize end */
+
+a.carousel-control-prev, a.carousel-control-next {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    bottom: 50%;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.75);
+    opacity: 0.5;
+}
+
+a.carousel-control-prev {
+    left: 10px;
+}
+
+a.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+}
+
+#nav-side-bar > .list-group-item:first-child {
+    background: -webkit-linear-gradient(0deg, #888098, #fff)
+}
+
+#nav-side-bar > .active {
+    background: -webkit-linear-gradient(0deg, #888098, #fff);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+a.nav-link {
+    color: #495057
+}
+
+.contact-card .card-header {
+    background: inherit
+}
+
+.leader-name {
+    color: #000088
+}
+
+.leader-title {
+    border-left: 5px solid #575A5A;
+    padding-left: 3px;
+    color: #575A5A;
+    font-weight: bold;
+}
