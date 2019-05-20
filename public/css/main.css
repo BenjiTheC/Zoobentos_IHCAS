@@ -84,9 +84,33 @@ a.carousel-control-next {
 }
 
 #nav-side-bar > .active {
+    display: flex;
+    align-items: center;
     background: -webkit-linear-gradient(0deg, #888098, #fff);
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+}
+
+#nav-side-bar > .active::before {  /* put an arrow on nav side bar in the current page link */
+    /* General icon setting */
+    display: inline-flex; /* put the icon right in the middle */
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: -15px;
+
+    /* arrow used */
+    width: 30px;
+    height: 30px;
+    font-family: "Font Awesome 5 Free";
+    /* font-weight: 900; */
+    font-size: 30px;
+    content: "\f35a";
+
+    /* some background effect */
+    background: rgb(183, 190, 199);
+    border-radius: 50%; /* rounded the border so it's not a square background */
 }
 
 a.nav-link {
