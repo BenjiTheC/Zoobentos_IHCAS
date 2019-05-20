@@ -1,0 +1,382 @@
+[
+    {
+        "first_name": "Hongzhu",
+        "last_name": "Wang",
+        "title": "Professor",
+        "research_area": "",
+        "email": "wanghz@ihb.ac.cn",
+        "phone": "(+86)027-68780719",
+        "fax": "(+86)027-68780719",
+        "order": 1
+    },
+    {
+        "first_name": "Yanling",
+        "last_name": "Liang",
+        "title": "Professor Emeritus",
+        "research_area": "",
+        "email": "ylliang@ihb.ac.cn",
+        "phone": "(+86)027-68780719",
+        "fax": "(+86)027-68780719",
+        "order": 2
+    },
+    {
+        "first_name": "Haijun",
+        "last_name": "Wang",
+        "title": "Associate Professor",
+        "research_area": "",
+        "email": "wanghj@ihb.ac.cn",
+        "phone": "(+86)027-68780064",
+        "fax": "(+86)027-68780719",
+        "order": 3
+    },
+    {
+        "first_name": "Xueqin",
+        "last_name": "Liu",
+        "title": "Associate Professor",
+        "research_area": "",
+        "email": "xqliu@ihb.ac.cn",
+        "phone": "(+86)027-68780064",
+        "fax": "(+86)027-68780719",
+        "order": 3
+    },
+    {
+        "first_name": "Yongde",
+        "last_name": "Cui",
+        "title": "Associate Professor",
+        "research_area": "",
+        "email": "ydcui@ihb.ac.cn",
+        "phone": "(+86)027-68780064",
+        "fax": "(+86)027-68780719",
+        "order": 3
+    },
+    {
+        "first_name": "Weisong",
+        "last_name": "Feng",
+        "title": "Senior Technician",
+        "research_area": "",
+        "email": "fengweisong@ihb.ac.cn",
+        "phone": "(+86)027-68780064",
+        "fax": "(+86)027-68780719",
+        "order": 4
+    },
+    {
+        "first_name": "Xiaomin",
+        "last_name": "Liang",
+        "title": "Senior Technician",
+        "research_area": "",
+        "email": "liangxm@ihb.ac.cn",
+        "phone": "(+86)027-68780064",
+        "fax": "(+86)027-68780719",
+        "order": 4
+    },
+    {
+        "first_name": "Miao",
+        "last_name": "Liu",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "1648873667@qq.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Baoqiang",
+        "last_name": "Wang",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "fish1066@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Yajing",
+        "last_name": "He",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "hyjjayel@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Zhendong",
+        "last_name": "Yang",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "jiayouyzd2011@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Shuonan",
+        "last_name": "Ma",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "mashuonan12@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Shuran",
+        "last_name": "Wang",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "shuran28@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Saibo",
+        "last_name": "Yuan",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "yuansaibo_ihb 2013@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Qing",
+        "last_name": "Yu",
+        "title": "Doctoral Student",
+        "research_area": "",
+        "email": "yuqzoe@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 5
+    },
+    {
+        "first_name": "Minghua",
+        "last_name": "Shen",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "15927311739@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Fanghua",
+        "last_name": "Wang",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "wangfh571164451@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Junyan",
+        "last_name": "Wu",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "wujunyan0000@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Chao",
+        "last_name": "Xu",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "xuchao3091@live.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Yaxue",
+        "last_name": "Ma",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "yaxuema@126.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Kaisheng",
+        "last_name": "Yao",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "yks318517@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Weilin",
+        "last_name": "Yao",
+        "title": "Master Student",
+        "research_area": "",
+        "email": "ywlmail@qq.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 6
+    },
+    {
+        "first_name": "Wenjuan",
+        "last_name": "Gao",
+        "title": "Researh Assistant",
+        "research_area": "",
+        "email": "gaowj12@lzu.edu.cn",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 7
+    },
+    {
+        "first_name": "Yongjing",
+        "last_name": "Zhao",
+        "title": "Researh Assistant",
+        "research_area": "",
+        "email": "yongjing0925@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 7
+    },
+    {
+        "first_name": "Yuzhou",
+        "last_name": "Zhang",
+        "title": "Researh Assistant",
+        "research_area": "",
+        "email": "zyz545520@163.com",
+        "phone": "(+86)027-68780061",
+        "fax": "(+86)027-68780719",
+        "order": 7
+    },
+    {
+        "first_name": "Xucheng",
+        "last_name": "Xiao",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "20030901009xiao@163.com",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Xuebao",
+        "last_name": "He",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "hexuebao@ihb.ac.cn",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Huijun",
+        "last_name": "Ru",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "hjr_0415@sohu.com",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Yan",
+        "last_name": "Li",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "liyan_891222@126.com",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Yu",
+        "last_name": "Peng",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "pydaisy@163.com",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Weihua",
+        "last_name": "Zhao",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "whzhao@ihb.ac.cn",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Xiaoke",
+        "last_name": "Zhang",
+        "title": "Graduated Ph.D",
+        "research_area": "",
+        "email": "zxksgsg@163.com",
+        "phone": "",
+        "fax": "",
+        "order": 8
+    },
+    {
+        "first_name": "Qingzhang",
+        "last_name": "Ding",
+        "title": "Graduated M.S",
+        "research_area": "",
+        "email": "dqzh06@126.com",
+        "phone": "",
+        "fax": "",
+        "order": 9
+    },
+    {
+        "first_name": "Gang",
+        "last_name": "Yuan",
+        "title": "Graduated M.S",
+        "research_area": "",
+        "email": "gangyuan@ihb.ac.cn",
+        "phone": "",
+        "fax": "",
+        "order": 9
+    },
+    {
+        "first_name": "Zenghui",
+        "last_name": "Peng",
+        "title": "Graduated M.S",
+        "research_area": "",
+        "email": "pzengh@163.com",
+        "phone": "",
+        "fax": "",
+        "order": 9
+    },
+    {
+        "first_name": "Yaqiang",
+        "last_name": "Shen",
+        "title": "Graduated M.S",
+        "research_area": "",
+        "email": "shenyaqiang@163.com",
+        "phone": "",
+        "fax": "",
+        "order": 9
+    },
+    {
+        "first_name": "Yong",
+        "last_name": "Wang",
+        "title": "Graduated M.S",
+        "research_area": "",
+        "email": "wyhzau@yahoo.com.cn",
+        "phone": "",
+        "fax": "",
+        "order": 9
+    },
+    {
+        "first_name": "Lu",
+        "last_name": "Chen",
+        "title": "Graduated M.S",
+        "research_area": "",
+        "email": "xuchao3091@live.com",
+        "phone": "",
+        "fax": "",
+        "order": 9
+    }
+]

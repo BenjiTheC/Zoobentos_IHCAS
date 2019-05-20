@@ -1,5 +1,6 @@
 # customization ignoring files
 outcome/*
+.vscode/*
 
 # Logs
 logs
