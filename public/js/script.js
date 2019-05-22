@@ -3,10 +3,10 @@ $("ul.carousel-indicators li[data-slide-to=0]").addClass("active");
 $("#intro-photo-0").addClass("active");
 
 const carouselAspectRatio = (width, height) => {
-  const aspectRatio = width / height;
+  const aspectRatio = width / height; // get aspect ratio
   const carouselInner = $("#intro-photos div.carousel-inner");
 
-  const computedHeight = carouselInner.width() / aspectRatio;
+  const computedHeight = carouselInner.width() / aspectRatio; // compute the height based on width of the element.
 
   carouselInner.height(computedHeight);
 };
