@@ -65,95 +65,33 @@
     <h2 class="h2 px-2">Group Leaders</h2>
   </div>
 
+  {{#each group_leaders as |member|}}
+  {{#with member}}
   <div class="col-md-6 px-1">
-    <div id="hongzhu-wang-contact" class="card border-light mb-3 sec-bg-gradient contact-card">
+    <div id="{{toLowerCase first_name}}-{{toLowerCase last_name}}-contact"
+      class="card border-light mb-3 sec-bg-gradient contact-card">
       <div class="row no-gutters">
-        <div class="col-md-5">
-          <img src="https://via.placeholder.com/200x200.png?text=Hongzhu+Wang" class="card-img rounded-0"
-            alt="Hongzhu Wang">
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+          <img src="public/image/members/{{first_name}}{{last_name}}.jpg" class="card-img rounded-0"
+            alt="{{first_name}} {{last_name}}">
         </div>
         <div class="col-md-7">
           <div class="card-header px-1 py-0">
-            <p class="h4 my-1 leader-name">Hongzhu Wang</p>
-            <p class="m-0 py-0 leader-title">Professor</p>
+            <p class="h4 my-1 leader-name">{{first_name}} {{last_name}}</p>
+            <p class="m-0 py-0 leader-title">{{title}}</p>
             <p class="mb-1 py-0 leader-title">Another Title</p>
           </div>
           <div class="card-body px-1 py-1">
             <small>Address: Building-Floor-Rm Number<br></small>
-            <small>Tel: (+86)027-68780719<br></small>
-            <small>E-mail: <a href="mailto:wanghz@ihb.ac.cn">wanghz@ihb.ac.cn</a><br></small>
+            <small>Tel: {{phone}}<br></small>
+            <small>E-mail: <a href="mailto:{{email}}">{{email}}</a><br></small>
           </div>
         </div>
       </div>
     </div>
   </div>
+  {{/with}}
+  {{/each}}
 
-  <div class="col-md-6 px-1">
-    <div id="yongde-cui-contact" class="card border-light mb-3 sec-bg-gradient contact-card">
-      <div class="row no-gutters">
-        <div class="col-md-5">
-          <img src="https://via.placeholder.com/200x200.png?text=Yongde+Cui" class="card-img rounded-0"
-            alt="Yongde Cui">
-        </div>
-        <div class="col-md-7">
-          <div class="card-header px-1 py-0">
-            <p class="h4 my-1 leader-name">Yongde Cui</p>
-            <p class="m-0 py-0 leader-title">Associate Professor</p>
-            <p class="mb-1 py-0 leader-title">Another Title</p>
-          </div>
-          <div class="card-body px-1 py-1">
-            <small>Address: Building-Floor-Rm Number<br></small>
-            <small>Tel: (+86)027-68780064<br></small>
-            <small>E-mail: <a href="mailto:ydcui@ihb.ac.cn">ydcui@ihb.ac.cn</a><br></small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 px-1">
-    <div id="haijun-wang-contact" class="card border-light mb-3 sec-bg-gradient contact-card">
-      <div class="row no-gutters">
-        <div class="col-md-5">
-          <img src="https://via.placeholder.com/200x200.png?text=Haijun+Wang" class="card-img rounded-0"
-            alt="Haijun Wang">
-        </div>
-        <div class="col-md-7">
-          <div class="card-header px-1 py-0">
-            <p class="h4 my-1 leader-name">Haijun Wang</p>
-            <p class="m-0 py-0 leader-title">Associate Professor</p>
-            <p class="mb-1 py-0 leader-title">Another Title</p>
-          </div>
-          <div class="card-body px-1 py-1">
-            <small>Address: Building-Floor-Rm Number<br></small>
-            <small>Tel: (+86)027-68780064<br></small>
-            <small>E-mail: <a href="mailto:wanghj@ihb.ac.cn">wanghj@ihb.ac.cn</a><br></small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 px-1">
-    <div id="xueqin-liu-contact" class="card border-light mb-3 sec-bg-gradient contact-card">
-      <div class="row no-gutters">
-        <div class="col-md-5">
-          <img src="https://via.placeholder.com/200x200.png?text=Xueqin+Liu" class="card-img rounded-0"
-            alt="Xueqin Liu">
-        </div>
-        <div class="col-md-7">
-          <div class="card-header px-1 py-0">
-            <p class="h4 my-1 leader-name">Xueqin Liu</p>
-            <p class="m-0 py-0 leader-title">Associate Professor</p>
-            <p class="mb-1 py-0 leader-title">Another Title</p>
-          </div>
-          <div class="card-body px-1 py-1">
-            <small>Address: Building-Floor-Rm Number<br></small>
-            <small>Tel: (+86)027-68780064<br></small>
-            <small>E-mail: <a href="mailto:xqliu@ihb.ac.cn">xqliu@ihb.ac.cn</a><br></small>
-          </div>
-        </div>
-      </div>
-    </div>
 
 </section>
