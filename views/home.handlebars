@@ -2,71 +2,19 @@
   <h2 class="sr-only">Introduction Photos</h2>
   <!-- .carousel-indicators display which page of slide is current displayed -->
   <ul class="carousel-indicators">
-    <li data-target="#intro-photos" data-slide-to="0" class="active"></li>
-    <li data-target="#intro-photos" data-slide-to="1"></li>
-    <li data-target="#intro-photos" data-slide-to="2"></li>
-    <li data-target="#intro-photos" data-slide-to="3"></li>
-    <li data-target="#intro-photos" data-slide-to="4"></li>
-    <li data-target="#intro-photos" data-slide-to="5"></li>
-    <li data-target="#intro-photos" data-slide-to="6"></li>
-    <li data-target="#intro-photos" data-slide-to="7"></li>
-    <li data-target="#intro-photos" data-slide-to="8"></li>
-    <li data-target="#intro-photos" data-slide-to="9"></li>
-    <li data-target="#intro-photos" data-slide-to="10"></li>
+    {{#each intro_pics}}
+    <li data-target="#intro-photos" data-slide-to="{{@index}}"></li>
+    {{/each}}
   </ul>
   <div class="carousel-inner">
     <!-- .carousel-inner contains the .carousel-item as each slides -->
 
-    <div id="intro-photo-0" class="carousel-item active">
-      <!-- carousel item with .active class will be the initial slide.-->
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-0" class="d-block w-100"
-        alt="group photo" />
+    <!-- carousel item with .active class will be the initial slide.-->
+    {{#each intro_pics as |pic index|}}
+    <div id="intro-photo-{{index}}" class="carousel-item">
+      <img src="{{pic}}" class="d-block w-100" alt="group photo" />
     </div>
-
-    <div id="intro-photo-1" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-1" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-2" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-2" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-3" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-3" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-4" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-4" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-5" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-5" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-6" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-6" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-7" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-7" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-8" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-8" class="d-block w-100"
-        alt="group photo" />
-    </div>
-
-    <div id="intro-photo-9" class="carousel-item">
-      <img src="https://via.placeholder.com/2400x1000.png?text=Group+Introduction+Pictures-9" class="d-block w-100"
-        alt="group photo" />
-    </div>
+    {{/each}}
 
   </div>
 
