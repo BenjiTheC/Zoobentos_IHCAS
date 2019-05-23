@@ -1,5 +1,5 @@
 body {
-    background: -webkit-linear-gradient(-90deg, #376796, #98C9F9, #fff, #fff, #fff, #fff)
+    background: -webkit-linear-gradient(-90deg, #334374, #475682, #5C6990, #fff, #fff, #fff, #fff, #fff)
 }
 
 main > hr {
@@ -13,7 +13,13 @@ main > hr {
 }
 
 .bg-academic { /* Use a Bootstrap-like syntax, you can find pre-compiled bg-* in Bootstrap4 documentation */
-    background: rgb(183, 190, 199)
+    /* background: rgb(183, 190, 199) */
+    background: #1f3167
+}
+
+.bg-footer {
+    /* background: #999a9e */
+    background: #c1c6c9
 }
 
 .sec-bg-gradient { /* Section background gradient color */

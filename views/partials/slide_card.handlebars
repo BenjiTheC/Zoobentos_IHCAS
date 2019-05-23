@@ -1,0 +1,15 @@
+<div class="card col-4 px-0 mx-3">
+  <img class="card-img-top" src="public/image/members/{{first_name}}{{last_name}}.jpg"
+    alt="{{first_name}}{{last_name}}" />
+  <div class="card-body">
+    <p class="h4 card-title">{{first_name}} {{last_name}}</p>
+    <p class="card-subtitle text-muted">
+      {{title}}
+    </p>
+  </div>
+  {{#isGroupLeader order}}
+  <div class="card-footer">
+    <a class="card-link" href="#{{../first_name}}{{../last_name}}">Detailed Information</a>
+  </div>
+  {{/isGroupLeader}}
+</div>

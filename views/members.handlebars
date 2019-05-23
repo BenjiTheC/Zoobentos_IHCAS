@@ -1,0 +1,52 @@
+<h1 class="sr-only">Instruction of Research Group Members</h1>
+
+<!-- Group Member Carousel in the top -->
+<div id="group-members-slides" class="carousel slide" data-ride="carousel" data-pause="hover">
+  <!-- .carousel-indicators display which page of slide is current displayed -->
+  <ul class="carousel-indicators">
+    <li data-target="#group-members-slides" data-slide-to="0"></li>
+    {{#each slides}}
+    <li data-target="#group-members-slides" data-slide-to="{{addOne @index}}"></li>
+    {{/each}}
+  </ul>
+
+  <div class="carousel-inner">
+    <!-- .carousel-inner contains the .carousel-item as each slides -->
+
+    <!-- group photo -->
+    <div class="carousel-item active">
+      <!-- carousel item with .active class will be the initial slide.-->
+      <img src="public/image/groupPhoto_16x9.jpg" class="d-block w-100" alt="group photo" />
+      <div class="carousel-caption">
+        <p class="h3">Members of the subject group</p>
+      </div>
+    </div>
+
+    {{> slides}}
+
+  </div>
+
+  <!-- carousel control left and right -->
+  <a class="carousel-control-prev" href="#group-members-slides" role="button" data-slide="prev">
+    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#group-members-slides" role="button" data-slide="next">
+    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<hr />
+<!-- Group Member Detail Introduction -->
+
+<div id="group-leaders-detail" class="row">
+
+  {{#each groupLeaders as |groupLeader|}}
+  {{#with groupLeader}}
+  {{> detail_card}}
+  {{/with}}
+  {{/each}}
+
+
+</div>

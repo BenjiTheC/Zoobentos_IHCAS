@@ -1,6 +1,7 @@
 // set the first slides to be active
 $("ul.carousel-indicators li[data-slide-to=0]").addClass("active");
 $("#intro-photo-0").addClass("active");
+$(`#nav-side-bar a[href="${location.pathname}"]`).addClass("active");
 
 const carouselAspectRatio = (width, height) => {
   const aspectRatio = width / height; // get aspect ratio
