@@ -24,7 +24,6 @@ app.set("view engine", "handlebars");
 
 configRoutes(app);
 
-app.listen(3000, () => {
+app.listen(8081, () => {
   console.log("Zoobenthos Website");
-  console.log("Server running on http://localhost:3000/");
 });
