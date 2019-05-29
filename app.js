@@ -24,6 +24,6 @@ app.set("view engine", "handlebars");
 
 configRoutes(app);
 
-app.listen(8081, () => {
+app.listen(8080, () => {
   console.log("Zoobenthos Website");
 });
