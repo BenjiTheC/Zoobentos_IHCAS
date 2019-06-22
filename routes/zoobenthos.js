@@ -54,4 +54,16 @@ router.get("/research", async (req, res) => {
   return res.render("research");
 });
 
+router.get("/culture", async (req, res) => {
+  return res.render("culture");
+});
+
+router.get("/relevent_knowledge", async (req, res) => {
+  return res.render("releventKnowledge");
+});
+
+router.get("/opportunity", async (req, res) => {
+  return res.render("opportunity");
+});
+
 module.exports = router;
