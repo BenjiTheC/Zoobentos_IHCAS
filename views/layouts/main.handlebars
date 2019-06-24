@@ -9,13 +9,13 @@
     Division of Benthology and Floodplain Ecology | Institute of Hydrobiology
   </title>
 
-  <link rel="icon" type="image/x-icon" href="public/image/Subject_Group_logo.png">
+  <link rel="icon" type="image/x-icon" href="/public/image/Subject_Group_logo.png">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
-  <link rel="stylesheet" href="public/css/main.css" />
+  <link rel="stylesheet" href="/public/css/main.css" />
 </head>
 
 <body>
@@ -24,10 +24,10 @@
     <div class="navbar navbar-expand-sm shadow mt-5 bg-academic rounded-0">
       <div class="container">
         <a class="navbar-brand" href="http://www.ihb.ac.cn/">
-          <img src="public/image/sss-logo.gif" alt="institute-logo" style="width: 100px;height:auto" />
+          <img src="/public/image/sss-logo.gif" alt="institute-logo" style="width: 100px;height:auto" />
         </a>
         <a class="navbar-brand" href="index.html">
-          <img src="public/image/Subject_Group_logo.png" alt="subject-group-logo" style="width: 100px;height:auto"
+          <img src="/public/image/Subject_Group_logo.png" alt="subject-group-logo" style="width: 100px;height:auto"
             class="rounded-lg" />
         </a>
         <div class="row text-left m-2" style="border-left: 5px solid white">
@@ -44,10 +44,17 @@
 
   <div class="container mt-1 mb-5">
     <div class="row justify-content-end">
-      <select name="language" id="language_select">
-        <option value="chn">中文（简体）</option>
-        <option value="eng">English</option>
-      </select>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light btn-sm">Language: </button>
+        <button type="button" class="btn btn-light btn-sm dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Language Switch Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">中文（简体）</a>
+          <a class="dropdown-item" href="#">English</a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -70,10 +77,10 @@
         <div class="row">
           <div class="col-sm-3 pl-0">
             <a class="navbar-brand" href="http://www.ihb.ac.cn/">
-              <img src="public/image/sss-logo.gif" alt="institute-logo" style="width: 100px;height:auto" />
+              <img src="/public/image/sss-logo.gif" alt="institute-logo" style="width: 100px;height:auto" />
             </a>
             <a class="navbar-brand" href="index.html">
-              <img src="public/image/Subject_Group_logo.png" alt="subject-group-logo" style="width: 100px;height:auto"
+              <img src="/public/image/Subject_Group_logo.png" alt="subject-group-logo" style="width: 100px;height:auto"
                 class="rounded-lg" />
             </a>
           </div>
